@@ -1,0 +1,8 @@
+# _*_ coding: utf-8 _*
+
+if __name__ == "__main__":
+	Nome=input ("Nome proprio do autor: ")
+	Apelido=input ("Apelido do Autor:  ")
+	Tit=input ("Titulo da Obra: ")
+	Ano=int(input("Ano de Publicação:  "))
+	print(f"{Apelido}, {Nome} ({Ano})  {Tit}")
