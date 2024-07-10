@@ -1,0 +1,7 @@
+# _*_ coding: utf-8 _*
+import math
+  
+if __name__ == "__main__":
+  X, Y, N=1000, 0.01, 2
+  Capacum=X*math.pow((1*I), N)
+  print (f"{X:5.2f}
