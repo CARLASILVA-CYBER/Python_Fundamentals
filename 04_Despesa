@@ -1,0 +1,10 @@
+ #_*_ coding: utf-8 _*
+
+if __name__ == "__main__":
+    Aumento= 20
+    D1=float(input("Digite a despesa média do primeiro dia: "))
+    D2=D1*(1+Aumento/100)
+    D3=D2*(1+Aumento/100)
+    D4=D3*(1+Aumento/100)
+    Dmedia=(D1+D2+D3+D4)/4
+    print(f"Despesa média diária {Dmedia:3.2f}  euros")
