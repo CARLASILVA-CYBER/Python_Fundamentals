@@ -1,0 +1,11 @@
+# _*_ coding: utf-8 _*
+if __name__ == "__main__":
+    Desconto={
+    "VEG": 0.15,
+    "LAT": 0.20,
+    "CER": 0.10,
+    "AGU": 0.30,
+    }
+    CProd=input("Três primeiras letras da Classe do Produto?").upper()
+    print(f"Os produtos da Classe{CProd:3} têm {Desconto.get(CProd, 0.01):2.0%} de desconto")
+    
