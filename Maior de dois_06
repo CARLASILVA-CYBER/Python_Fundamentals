@@ -1,0 +1,9 @@
+if __name__ == "__main__":
+    A= input("Digite o primeiro numero  ")
+    B= float(input("Digite o segundo numero  "))
+    if A>B :
+        Maior=A
+    else :
+        Maior=B
+    print(f"{Maior:1.3f} é o maior de dois números: {A:1.3f} e {B:1.3f}")
+    
